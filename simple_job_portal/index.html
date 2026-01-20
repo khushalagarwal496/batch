@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+
+</head>
+<STYLE>
+    body {
+        background-color: #e0f7fa;
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #00838f;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-bottom: 5px solid #005662;
+    }
+
+    h3 {
+
+        text-align: center;
+        color: #333;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+        margin: 0;
+    }
+
+    .job-container {
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+
+    .job-box {
+        background-color: white;
+        border: 2px solid #00ACC1;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .job-box h2 {
+        color: #d84315;
+        margin-top: 0;
+    }
+
+    button {
+        background-color: #ffca28;
+        border: 1px solid #ff6f00;
+        padding: 10px 20px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: #ffb300;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        margin-top: 20px;
+    }
+      .grid {
+            display: grid;
+           
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .cards {
+            background-color: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+            transition: transform 0.2s;
+        }
+       .fast { 
+        margin: 0px,0px,0px,10px;
+
+       }
+
+</style>
+
+<body>
+    <header>
+        <h1>Welcome to Job Portal</h1>
+        <h3>i have deeply analysis your resume <div class=""></div>I have get some Job </h3>
+    </header>
+
+    <main>
+
+
+        <div class="job-container">
+           
+              
+        <!-- Header -->
+        <div class="hero">
+            <h1>Career Compass</h1>
+            <div class="tagline">"Not just a Job Board. A Career GPS."</div>
+            <p style="margin-top: 20px; color: #126ad6;">An AI-First Employability Ecosystem for Students</p>
+        </div>
+
+        <!-- Problem & Solution -->
+        <div class="grid">
+            <div class="cards">
+                <div class="section-title">🛑 The Problem</div>
+                <h3>Why Students Fail?</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li>❌ <b>Random Applications:</b> Applying blindly to 100s of jobs.</li>
+                    <li>❌ <b>ATS Rejection:</b> Resumes rejected by bots instantly.</li>
+                    <li>❌ <b>Skill Gap:</b> No feedback on <i>why</i> they failed.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="section-title">⚡ The Solution</div>
+                <h3>The "Smart Match" Engine</h3>
+                <p>We replaced "Search" with "Match". Our AI analyzes the resume and finds the <b>perfect fit</b>.</p>
+            <div class="job-box" style="background-color: #00838f;">
+                <h2>Junior Web Developer</h2>
+                <p><strong>Company: </strong> IT Starters</p>
+                <p><strong>Experience:</strong> Fresher (0-1 year)</p>
+                <p>This is a good job for frontend beginners.</p>
+                <button onclick="applyForJob('Junior Web Developer')">Apply</button>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="job-box" >
+                <h2>Content Writer</h2>
+                <p><strong>Company:</strong> Write Well</p>
+                <p><strong>Experience:</strong> 0-2 years</p>
+                <p>Need someone who can write good blogs.</p>
+                <button onclick="applyForJob('Content Writer')">Apply</button>
+            </div>
+
+            <!-- Job 3 -->
+            <div class="job-box" style="background-color: #00838f;">
+                <h2>Data Entry Operator</h2>
+                <p> <strong>Company: </strong> Fast Type Ltd</p>
+                <p> <strong>Experience:</strong> No experience</p>
+                <p> <strong>Closed =</strong> Today</p>
+                <p>Basic typing speed required.</p>
+                <button onclick="applyForJob('Data Entry Operator')">Apply  </button>
+<button style="background-color: #d84315; text-align: end;"
+>  Fast  </button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><strong></strong>Job Portal Project </strong></p>
+        <p>Created by: Khushal Agarwal , Drishty , Shreyansh Singh, Drishty, Mohmmad Adnan </p>
+        <h5>Students of pwioi</h5>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
